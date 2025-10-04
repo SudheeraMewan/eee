@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(164, 210, 255);
+    text-align: center;
+}
+
+/* Web Head */
+
+.header {
+    background-color: blue;
+}
+
+.Logo-img {
+    height: 75px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+}
+
+.header h1 {
+    font-size: 45px;
+  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* nav bar */
+
+.nav-bar {
+    background-color: black;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.nav-bar a {
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.nav-bar a:link {
+    color: white;
+}
+
+.nav-bar a:visited {
+    font-weight: 800;
+}
+
+.nav-bar a:hover {
+    color: blue;
+    font-weight: 800;
+
+}
+
+
+
+
+/* Fish Page */
+.page-fish-name {
+    background-color: bisque;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgb(230, 200, 92);
+    
+}
+
+/* fish card */
+
+.page-fish-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+
+.page-fish-card-content {
+    background-color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px ;
+    border-radius: 5px;
+
+}
+
+.page-fish-list {
+
+    
+}
+
+.page-fish-img {
+    height: 100px;
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.page-fish-list h3 {
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* fish detail */
+
+.page-fish-detail {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.page-detail-head {
+    background-color: white;
+    box-shadow: 0 0 5px ;
+    border-radius: 5px;
+    /* margin-right: 10px; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    /* height: 140px; */
+    width: 200px;
+}
+
+.page-detail-head h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+.page-fish-list-name {
+    background-color: aqua;
+    margin: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.page-fish-list-name ul {
+    padding-top: 5px;
+}
+
+.page-fish-list-name li {
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 2px;
+    
+    
+
+}
+
+
+/* Contacts us */
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 10px;
+}
+
+.contact-card {
+    background-color: white;
+    margin-top: 5px;
+    box-shadow: 0 0 5px ;
+    border-radius: 5px;
+}
+
+.contact-img {
+    margin: 5px;
+    height: 70px;
+}
+
+.contact-card-content h3 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-card-content p {
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.contact-button {
+    background-color: blue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    height: 40px;
+    box-shadow: 0 0 5px ;
+    
+}
+
+.contact-button a {
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.contact-button a:link {
+    text-decoration: none;
+}
+
+/* home page */
+
+.home-page-img {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    box-shadow: 0 0 5px ;
+}
+
+/* home page card */
+
+.home-page-fish-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    
+
+}
+
+.home-page-fish-card-content {
+    background-color: white;
+    box-shadow: 0 0 5px ;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+
+}
+
+.home-page-fish-card-list {
+    
+}
+
+.home-page-fish-card-list-img {
+    height: 120px;
+}
+.home-page-fish-card-list h3 {
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.home-page-fish-card-list button {
+    background-color: blue;
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    box-shadow: 0 0 5px blue;
+    border-radius: 5px;
+}
+
+.home-page-fish-card-list a {
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.home-page-fish-card-list a:link {
+    text-decoration: none;
+    
+}
+
+
+
+
+
+/* Footer */
+Footer {
+    background-color: blue;
+    padding: 7px;
+}
+
+
+
